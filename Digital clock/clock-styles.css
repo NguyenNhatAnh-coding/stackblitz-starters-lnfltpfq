@@ -1,3 +1,4 @@
+@import url("https://fonts.googleapis.com/css2?family=Dosis:wght@400&family=Bitcount+Grid+Double:wght@400&display=swap");
 html {
   background-color: #102;
   margin: auto;
@@ -5,4 +6,16 @@ html {
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
+}
+div.clock {
+  border: 1px solid white;
+  border-radius: 15px;
+}
+div.clock div#date {
+  font-family: "Dosis", sans-serif;
+  font-size: 50px;
+  
+}
+div.clock div#time {
+  font-family: "Bitcount Grid Double", monospace;
 }
